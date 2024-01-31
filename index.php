@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with JohnDoe landing page.">
+    <meta name="author" content="Devcrud">
+    <title>EF Web Designs | Programacion web</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + JohnDoe main styles -->
+	<link rel="stylesheet" href="assets/css/johndoe.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    <a href="components.html" class="btn btn-primary btn-component" data-spy="affix" data-offset-top="600"><i class="ti-shift-left-alt"></i> Components</a>
+    <header class="header">
+        <div class="container"> 
+            <div class="header-content">
+                <h1 class="header-title">Ezequiel Fuenzalida</h1>
+                <h2 class="header-mono" >Web Designer | Full-Stack</h2>
+                <p class="header-p">Llevamos tu marca al siguiente nivel, tu éxito es nuestro código fuente.</p>
+                <ul class="social-icons">
+                    <li class="social-item"><a title="Facebook" class="social-link text-light" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>
+                    <li class="social-item"><a title="Instagram" class="social-link text-light" href="#"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+                    <li class="social-item"><a title="Linkedin" class="social-link text-light" href="#"><i class="ti-linkedin"></i></a></li>
+                    <li class="social-item"><a title="GitHub" class="social-link text-light" href="#"><i class="ti-github" aria-hidden="true"></i></a></li>
+                </ul> 
+            </div>
+        </div>
+    </header>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
+        <div class="container">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#service" class="nav-link">Servicios</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav brand">
+                    <img src="assets/imgs/eflogo.png" alt="" class="brand-img">
+                    <li class="brand-txt">
+                        <h5 class="brand-title">Ezequiel Fuenzalida</h5>
+                        <div class="brand-subtitle">Web Designer | Full-Stack</div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">Trabajos</a>
+                    </li>
+                    <li class="nav-item last-item">
+                        <a href="#contact" class="nav-link">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section" id="service">
+        <div class="container">
+            <h2 class="mb-5 pb-4"><span class="text-danger">Mis</span> Servicios</h2>
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="ti-ruler-pencil text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Desarrollo a medida</h5>
+                            <p class="subtitle">
+                                Creación de sitios web personalizados desde cero y responsivos para garantizar la compatibilidad con dispositivos móviles.<br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="ti-vector text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Aplicaciones Web</h5>
+                            <p class="subtitle">Creación de aplicaciones web personalizadas para diversas necesidades como desarrollo de tiendas en línea y plataformas de comercio electrónico.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="ti-dashboard text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Optimización del Rendimiento</h5>
+                            <P class="subtitle">Mejora de la velocidad, eficiencia y
+                            motores de búsqueda (SEO) web para mejorar la visibilidad en línea.</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="ti-harddrives text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Host y dominio</h5>
+                            <P class="subtitle">Con nuestro servicio, te proporcionamos hosting y dominio gratuito para tu sitio web durante 12 meses completos. Además, incluimos un certificado SSL de forma gratuita, asegurando que tus visitantes disfruten de una conexión segura y confiable.</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="ti-settings text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Mantenimiento y Actualización</h5>
+                            <P class="subtitle">Solución de problemas y mantenimiento para garantizar el rendimiento continuo. Actualización regular de contenido y funcionalidades. </P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="ti-support text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Veritatis</h5>
+                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam commodi provident, dolores reiciendis enim pariatur error optio, tempora ex, nihil nesciunt! In praesentium sunt commodi, unde ipsam ex veritatis laboriosam dolor asperiores suscipit blanditiis, dignissimos quos nesciunt nulla aperiam officia.</P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-dark py-5">
+        <div class="container text-center">
+            <h2 class="text-light mb-5 font-weight-normal">Estoy disponible para Freelance</h2>
+            <ul class="social-icons" style="margin: 0 auto;">
+                    <li class="social-item"><a title="Facebook" class="social-link text-light" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>
+                    <li class="social-item"><a title="Instagram" class="social-link text-light" href="#"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+                    <li class="social-item"><a title="Linkedin" class="social-link text-light" href="#"><i class="ti-linkedin"></i></a></li>
+                    <li class="social-item"><a title="GitHub" class="social-link text-light" href="#"><i class="ti-github" aria-hidden="true"></i></a></li>
+                </ul>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="section bg-custom-gray" id="portfolio">
+        <div class="container">
+            <h1 class="mb-5"><span class="text-danger">Mis</span> trabajos</h1>
+            <div class="portfolio">
+                <div class="filters">
+                    <a href="#" data-filter=".new" class="active">
+                        Nuevo
+                    </a>
+                    <a href="#" data-filter=".advertising">
+                        Landing page
+                    </a>
+                    <a href="#" data-filter=".branding">
+                        Aplicaciones webs
+                    </a>
+                    <a href="#" data-filter=".web">
+                        E-commerce
+                    </a>
+                </div>
+                <div class="portfolio-container"> 
+                    <div class="col-md-6 col-lg-4 web new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/web-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/web-1.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">WEB</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div>   
+                        </div>             
+                    </div>
+                    <div class="col-md-6 col-lg-4 web new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/web-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/web-2.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">WEB</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div> 
+                        </div>                         
+                    </div>
+                    <div class="col-md-6 col-lg-4 advertising new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/advertising-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                         
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/advertising-2.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">ADVERSTISING</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div>    
+                        </div>              
+                    </div> 
+                    <div class="col-md-6 col-lg-4 web">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/web-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/web-4.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">WEB</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div>
+                        </div>                                                     
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 advertising"> 
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/advertising-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                               
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/advertising-1.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">ADVERSITING</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div>
+                        </div>                                                       
+                    </div> 
+                    <div class="col-md-6 col-lg-4 web new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/web-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
+                           <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/web-3.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">WEB</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div>
+                        </div>                                                     
+                    </div>
+                    <div class="col-md-6 col-lg-4 advertising new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/advertising-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">       
+                           <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/advertising-3.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">ADVERSITING</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div>
+                        </div>                                                       
+                    </div> 
+                    <div class="col-md-6 col-lg-4 advertising new"> 
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/advertising-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">            
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/advertising-4.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">ADVERTISING</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div>
+                        </div>
+                                
+                    </div> 
+                    <div class="col-md-6 col-lg-4 branding new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/branding-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                        
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/branding-1.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">BRANDING</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div> 
+                        </div>
+                    </div> 
+                    <div class="col-md-6 col-lg-4 branding">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/branding-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/branding-2.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">BRANDING</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div>
+                        </div>                                                     
+                    </div> 
+                    <div class="col-md-6 col-lg-4 branding new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/branding-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">   
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/branding-3.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">BRANDING</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div>
+                        </div>                                                    
+                    </div> 
+                    <div class="col-md-6 col-lg-4 branding">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/branding-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                      
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/branding-4.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">BRANDING</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div>
+                        </div>                                                      
+                    </div> 
+                    <div class="col-md-6 col-lg-4 branding">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/branding-5.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">          
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/branding-5.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">BRANDING</h6>
+                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                </div>
+                            </div>
+                        </div>                                                   
+                    </div>
+                </div> 
+            </div>  
+        </div>            
+    </section>
+    <!-- End of portfolio section -->
+
+    <div class="section contact" id="contact" style="background: #212529;">
+        <div class="container">
+                    <div class="contact-form-card">
+                        <h4 class="contact-title">Enviame un mensaje</h4>
+                        <form action="">
+                            <div class="form-group">
+                                <input  class="form-control" type="text" placeholder="Name *" required>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="email" placeholder="Email *" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" id=" placeholder="Message *" rows="7" required></textarea>
+                            </div>
+                            <div class="form-group ">
+                                <button type="submit" class="form-control btn btn-primary" ></i>Enviar mensaje</button>
+                            </div>
+                        </form>
+                    </div>
+        </div>
+    </div>
+    <footer class="footer py-3" style="background: #212529; text-align: center">
+        <div class="container">
+            <p class="small mb-0 text-light">
+                &copy; EFWebDesigns 
+            </p>
+        </div>
+    </footer>
+
+	<!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Isotope  -->
+    <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
+    
+    <!-- Google mpas -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtme10pzgKSPeJVJrG1O3tjR6lk98o4w8&callback=initMap"></script>
+
+    <!-- JohnDoe js -->
+    <script src="assets/js/johndoe.js"></script>
+
+</body>
+</html>
