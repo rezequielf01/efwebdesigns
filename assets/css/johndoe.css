@@ -1,17 +1,5 @@
 @charset "UTF-8";
-/*!
-=========================================================
-* JohnDoe Landing page
-=========================================================
 
-* Copyright: 2019 DevCRUD (https://devcrud.com)
-* Licensed: (https://devcrud.com/licenses)
-* Coded by www.devcrud.com
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap");
 :root {
   --blue: #79A9F5;
@@ -11227,33 +11215,13 @@ p {
 
 .portfolio .portfolio-container .portfolio-item .content-holder {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(248, 92, 112, 0.8);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: center;
-  padding: 0 20px;
-  color: #fff;
-  opacity: 0;
-  visibility: hidden;
-  transition: 0.5s;
-  -webkit-transition: 0.5s;
+  background: rgba(0, 0, 0, 0.2);
+  transition: opacity 0.2s ease-in-out;
 }
 
 .portfolio .portfolio-container .portfolio-item .content-holder .title {
@@ -11263,12 +11231,12 @@ p {
 
 .portfolio .portfolio-container .portfolio-item .content-holder .subtitle {
   font-weight: 500;
-  opacity: 1;
+  opacity: 0;
   color: #fff;
 }
 
 .portfolio .portfolio-container .portfolio-item:hover .content-holder {
-  opacity: 1;
+  opacity: 0;
   visibility: visible;
 }
 
