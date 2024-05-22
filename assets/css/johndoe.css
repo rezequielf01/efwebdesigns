@@ -4667,6 +4667,32 @@ input[type="button"].btn-block {
   background-size: 100% 100%;
 }
 
+.portafolio-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+  height: 300px;
+  padding: 10px 15px;
+}
+.portafolio-box__img{
+  width: 50%;
+}
+.portafolio-box__desc{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 50%;
+  height: 100%;
+  margin: 0;
+}
+.portafolio-icons{
+  display: flex;
+  gap: 5px;
+}
+
 @media (max-width: 575.98px) {
   .navbar-expand-sm > .container,
   .navbar-expand-sm > .container-fluid {
@@ -5460,6 +5486,12 @@ input[type="button"].btn-block {
   border-radius: 0.25rem;
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.trabajos-container{
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -11530,19 +11562,32 @@ pre .code {
   font-size: calc(12px + (19 - 12) * ((100vw - 300px) / (1600 - 300)));
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 768.98px) {
   .header {
     height: 500px;
     min-height: 500px;
   }
   .header .social-icons {
-    margin: auto;
+    margin: 0;
   }
   .header .header-content {
     padding: 20px;
   }
   .header .header-content .header-mono {
     letter-spacing: 2px;
+    font-size: 1.2rem;
+  }
+  .header .header-p{
+    width: 100%;
+  }
+  .conocimientos-box{
+    margin: 0 auto;
+    width: 85%;
+  }
+  .trabajos-container{
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
   }
 }
 
@@ -11601,7 +11646,8 @@ pre .code {
 
 .contact {
   position: relative;
-  min-height: 700px;
+  min-height: 500px;
+  margin-top: 10px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -11622,14 +11668,14 @@ pre .code {
 
 @media (max-width: 991.98px) {
   .contact {
-    padding: 300px 0 0;
+    padding: 0px 30px;
   }
   .contact .contact-form-card {
     border-bottom: 1px solid #dee2e6;
   }
   .contact .contact-form-card,
   .contact .contact-info-card {
-    min-height: auto !important;
+    min-height: 350px;
   }
 }
 
@@ -11644,9 +11690,9 @@ pre .code {
 .contact .contact-form-card,
 .contact .contact-info-card {
 
-  padding: 35px;
+  padding: 15px;
   background: #fff;
-  min-height: 500px;
+  min-height: 350px;
 }
 
 .contact .contact-info-card {
@@ -11655,13 +11701,6 @@ pre .code {
 
 .contact .contact-title {
   margin-bottom: 30px;
+  color: var(--danger);
 }
 
-.contact .contact-title::after {
-  content: '';
-  width: 20px;
-  height: 2px;
-  background: #ff6427;
-  display: block;
-  margin-top: 10px;
-}
